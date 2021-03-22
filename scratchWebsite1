@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 32px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#music">Music</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<h2 align="center";>Sean Patrick Barnett</h2>
+<p align="center">a nice stoic thought for the day.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<!-- Landing Page Section -->
+<body>
+
+<div class="landingpage">
+  <h1>Hey friend, welcome.</h1>
+  <p>This is my work in progress.</p>
+  <p>...</p>
+</div>
+  <div class="column2">
+  
+    <!-- About Section -->
+<body>
+
+<div class="about-section" id="about">
+  <h1>Hey friend, welcome.</h1>
+  <p>This is all about me once I write it. I am healthy, wealthy, and wise.</p>
+  <p>about me subtext.</p>
+</div>
+  
+  
+  <!-- Projects  Section -->
+  <body>
+<div class="projects" id="projects">
+  <h1>Projects</h1>
+  <p>Here are some projects I've worked on</p>
+  <p>subtext.</p>
+</div>
+
+ <!-- Contact Card -->
+  <div class="column">
+    <div class="card">
+      <div id="contact">
+      <img src="C:\Users\compo\Pictures\Saved Pictures\headshot.png" alt="Sean" style="width:100%">
+      <div class="container">
+        <h2>Sean</h2>
+        <p class="title">Front End Developer</p>
+        <p><i>Dog petter. Website maker. Html.CSS.JavaScript.and soon to be React.</i></p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</body>
+  
+  
+  
+  
+</html> 
